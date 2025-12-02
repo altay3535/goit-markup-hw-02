@@ -1,72 +1,97 @@
+.web {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+.studio {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+.logo,
+.logo:visited {
+    text-decoration: none;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     background-color: #fafafa;
 }
-.logo{
-    padding: 24px 1169px 24px 156px;
-}
-
 .nav-list {
+    list-style: none;
+}
+.nav-link {
     color: #2E2F42;
     font-weight: 500;
-    font-style: medium;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 2;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     list-style: none;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    text-decoration: none;
+    color: #404BBF;
 }
 .contact-info a {
     color: #434455;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 2;
-}
-
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus {
-    color: #404BBF;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    text-decoration: none;
 }
 
 .contact-info {
     color: #434456;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 2;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     font-style: inherit;
+    text-decoration: none;
 }
 
 .contact-info a:hover,
 .contact-info a:focus {
     color: #404BBF;
+    text-decoration: none;
 }
 
 .hero {
     max-width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
     color: white;
-    padding: 250px 20px;
     text-align: center;
     margin-top: 72px;
 }
 
 .hero h1 {
     color: #ffff;
-    font-style: bold;
+    font-weight: bold;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
 }
 
 .hero button {
     width: 169px;
     height: 56px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
     border-radius: 4px;
     color: white;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .hero button:hover,
@@ -81,15 +106,15 @@ body {
     color: #2E2F42;
     font-weight: medium;
     font-size: 20px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
     list-style: none;
 }
 .section1 p {
     color: #434455;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .section2 ul {
@@ -99,9 +124,7 @@ body {
 .section2 {
     width: 100%;
     max-width: 1440px;
-    height: 600px;
     background-color: #F4F4FD;
-    padding: 50px 20px;
     text-align: center;
 }
 
@@ -109,22 +132,23 @@ body {
     color: #2E2F42;
     font-weight: bold;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .section2 h3 {
     color: #2E2F42;
     font-weight: medium;
     font-size: 20px;
-    letter-spacing: 2%;
-    line-height: 24x;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 
 .section2 p {
     color: #434455;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .section4 ul {
@@ -134,33 +158,44 @@ body {
     color: #2E2F42;
     font-weight: bold;
     font-size: 36px;
-    line-height: 40px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
 }
 .section4 h4 {
     color: #2E2F42;
     font-weight: medium;
     font-size: 20px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 
 .section4 p {
     color: #434455;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
+.altstudio {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
 .footer {
     max-width: 1440px;
-    height: 600px;
+    height: 312px;
     background-color: #2E2F42;
     color: #F4F4FD;
     text-align: left;
 }
-.footer .logo {
-    padding: 100px 1690px 188px 156px;
-}
 .footer p {
-    padding: 140px 1020px 100px 156px;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
